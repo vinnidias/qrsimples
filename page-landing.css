@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+
+.page-landing {
+    margin: auto;
+
+    width:min(90%, 112rem);
+}
+
+.header-container {
+    background: #EFCADC;
+    width: 100%;
+    height: 8rem;
+    padding: 1.2rem;
+    display: flex;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+
+.text-area {
+    position: relative;
+
+    width: min(70%, 23.125rem);
+    height: 19.688rem;
+    border-radius: 1rem;
+    margin-top: 3.25rem;
+    margin: auto;
+    padding-left: 2.35rem;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    line-height: 2rem;
+    font-size: 0.8rem;
+    font-weight: 800;
+    font-family: 'Roboto Slab', serif;
+}
+
+.download-area {
+    position: relative;
+    width: min(70%, 23.125rem);
+    height: 19.688rem;
+    border-radius: 1rem;
+    margin-top: 3.25rem;
+    background: #EFCADC;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.download-area p {
+    font-size: 0.8rem;
+    font-weight: 800;
+    font-family: 'Roboto Slab', serif;
+}
+
+.download-area img {
+    margin: 1.25rem;
+}
+
+.download-area a {
+    position: relative;
+    width: 12rem;
+    height: 3.5rem;
+
+    background: black;
+    border-radius: 1rem;
+    
+    color: white;
+    font-size: 0.8rem;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+
+    padding: 0.65rem;
+    padding-left: 2.75rem;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+
+    
+}
+
+.download-icon {
+    width: 1.3rem;
+    height: 1.4rem;
+    
+}
+
+.footer-container {
+    position: absolute;
+    background: #EFCADC;
+    width: 100%;
+    height: 4.5rem;
+    padding: 1.2rem;
+    margin-top: 1.2rem;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    font-size: 0.9rem;
+    font-family: 'Roboto Slab', serif;
+}
+
+.footer-container p {
+    margin-right: 0.625rem;
+    margin-top: 1.25rem;
+}
+
+.footer-container footer {
+    flex-direction: row;
+}
+
+.midia-icons {
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.insta-icon {
+    margin-bottom: 0.285rem ;
+}
+
+
+
+@media(min-width: 760px){
+    
+
+
+.header-container {
+    background: #EFCADC;
+    width: 100%;
+    height: 7rem;
+    padding: 1.2rem;
+    display: flex;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem;
+    
+}
+
+.text-area {
+    position: relative;
+
+    width: 33.125rem;
+    height: 19.688rem;
+    border-radius: 1rem;
+    margin-top: 3.25rem;
+    padding: 2.125rem;
+    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    line-height: 2.81rem;
+    font-size: 1.2rem;
+    font-weight: 800;
+    font-family: 'Roboto Slab', serif;
+}
+
+.download-area {
+    position: relative;
+    
+    width: 33.125rem;
+    height: 19.688rem;
+    border-radius: 1rem;
+    margin-top: 3.25rem;
+    padding: 2.125rem;
+
+    background: #EFCADC;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.download-area p {
+    font-size: 1.2rem;
+    font-weight: 800;
+    font-family: 'Roboto Slab', serif;
+}
+
+.download-area img {
+    margin: 1.25rem;
+}
+
+.download-area a {
+    position: relative;
+    width: 16.438rem;
+    height: 3.5rem;
+
+    background: black;
+    border-radius: 1rem;
+    
+    color: white;
+    font-size: 1rem;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+
+    padding: 0.65rem;
+    padding-left: 2.75rem;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+
+    
+}
+
+.download-area button:hover {
+    background: #262626;
+}
+
+.download-icon {
+    width: 1.25rem;
+    height: 1.375rem;
+    
+}
+
+.footer-container {
+    position: absolute;
+    background: #EFCADC;
+    width: 100%;
+    height: 5.5rem;
+    padding: 1.2rem;
+    
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+
+    font-size: 0.9rem;
+    font-family: 'Roboto Slab', serif;
+}
+
+.footer-container p {
+    margin-right: 0.625rem;
+    margin-top: 1.25rem;
+}
+
+.footer-container footer {
+    flex-direction: row;
+}
+
+.midia-icons {
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.insta-icon {
+    margin-bottom: 0.285rem ;
+}
+
+}
