@@ -11,11 +11,10 @@ body {
 
 .page-landing {
     margin: auto;
-
-    width:min(90%, 112rem);
 }
 
 .header-container {
+    position: relative;
     background: #EFCADC;
     width: 100%;
     height: 8rem;
@@ -28,8 +27,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    
+    margin: auto;    
 }
 
 .text-area {
@@ -150,7 +148,7 @@ body {
 
 .header-container {
     background: #EFCADC;
-    width: 100%;
+    width: auto;
     height: 7rem;
     padding: 1.2rem;
     display: flex;
